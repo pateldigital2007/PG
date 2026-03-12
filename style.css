@@ -136,14 +136,6 @@ opacity:0;
 
 @media only screen and (max-width:430px){
 
-    body {
-        height: 0vh !important;
-    }
-
-    .l-s{
-        padding: 0px !important;
-    }
-
     .l-p{
         font-size: 15px;
     }
