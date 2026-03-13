@@ -92,7 +92,7 @@ button {
 .slide::after {
     content: "MADE WITH LOVE BY PARTH GANGANI ❤️";
     position: absolute;
-    bottom: 15px;
+    bottom: 30px;
     right: 15px;
     font-size: 12px;
     color: #555;
