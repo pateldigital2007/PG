@@ -27,7 +27,7 @@ body {
 
 .main-t {
     position: absolute;
-    top: 30px;
+    bottom: 5px;
     font-size: 14px;
     color: #555;
     letter-spacing: 1px;
