@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(270deg, #ff9a9e, #fad0c4, #ffdde1);
+    background-size: 600% 600%;
+    animation: gradient 12s ease infinite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.main-t {
+    position: absolute;
+    top: 30px;
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 1px;
+    z-index: 10;
+}
+
+.slide {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    animation: fade 1s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background: linear-gradient(45deg, #ff4b7d, #ff758c);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.secondary {
+    background: #888;
+}
+
+/* SMILE ANIMATION */
+
+.smile {
+    font-size: 70px;
+    animation: smile 2s infinite;
+}
+
+@keyframes smile {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+/* GLOW TEXT */
+
+.glow {
+    font-size: 36px;
+    color: #ff4da6;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+
+    from {
+        text-shadow: 0 0 10px #ff4da6;
+    }
+
+    to {
+        text-shadow: 0 0 25px #ff99cc;
+    }
+
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.heart {
+    position: absolute;
+    font-size: 20px;
+    animation: float 6s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-10vh);
+        opacity: 0;
+    }
+}
