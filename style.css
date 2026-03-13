@@ -89,10 +89,10 @@ button {
 
 /* CREDIT TEXT */
 
-.slide::after {
-    content: "MADE WITH LOVE BY PARTH GANGANI ❤️";
+.main-t {
+    /* content: "MADE WITH LOVE BY PARTH GANGANI ❤️"; */
     position: absolute;
-    bottom: 10vh;
+    bottom: 10px;
     right: 15px;
     font-size: 12px;
     color: #555;
