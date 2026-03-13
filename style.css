@@ -1,5 +1,7 @@
 body {
     margin-top: -10vh;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(270deg, #ff9a9e, #fad0c4, #ffdde1);
     background-size: 600% 600%;
